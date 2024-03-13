@@ -1,0 +1,1 @@
+export { Btn_register } from "./ui";
