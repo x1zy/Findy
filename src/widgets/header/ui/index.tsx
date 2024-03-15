@@ -1,9 +1,8 @@
-"use client";
 import clsx from "clsx";
 import { Logo } from "./logo";
 import { Nav } from "./nav";
-import styles from "./styles.module.scss";
 import { Burger } from "./burger";
+import styles from "./styles.module.scss";
 
 export const Header = () => {
   return (
@@ -12,6 +11,9 @@ export const Header = () => {
         <div className={styles.row}>
           <Logo />
           <Nav />
+        </div>
+        <div className={styles.row}>
+          <Burger />
         </div>
       </div>
     </header>
