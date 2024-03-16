@@ -1,0 +1,16 @@
+.home {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10%;
+  margin-bottom: 15%;
+}
+
+.greeting {
+    margin-bottom: 10%;
+}
