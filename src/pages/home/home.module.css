@@ -7,10 +7,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
- width: 1400px;
- margin: 0 auto;
+  width: 1400px;
+  margin: 0 auto;
 }
 
 .greeting {
-    margin-bottom: 10%;
-}
+  margin-bottom: 10%;
+}/*# sourceMappingURL=home.module.css.map */
