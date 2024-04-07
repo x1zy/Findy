@@ -1,0 +1,38 @@
+.nav {
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.item {
+  height: 100%;
+}
+.item:not(:last-child) {
+  margin-right: 30px;
+}
+@media (max-width: 1024px) {
+  .item:not(:last-child) {
+    margin-right: 27px;
+  }
+}
+
+.link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 24px;
+  opacity: 0.6;
+}
+.link:hover {
+  opacity: 1;
+}/*# sourceMappingURL=nav.module.css.map */
