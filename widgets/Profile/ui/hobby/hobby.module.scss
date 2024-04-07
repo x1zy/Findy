@@ -1,0 +1,97 @@
+@mixin text{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Hobbies{
+    width: 287px;
+    height: 41px;
+    background: linear-gradient(90deg, #193156 0%, #99703A 51%, #4F835D 100%);
+border-radius: 10px;
+    margin-bottom: 17px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    @include text();
+}
+.dance{
+    width: 287px;
+    height: 41px;
+    background-color: white;
+    margin-bottom: 17px;   
+    border: solid 2px rgba(255, 187, 97, 1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(153, 112, 58, 1);
+    @include text();
+    
+}
+.Marketing{
+    width: 287px;
+    height: 41px;
+    background-color: white;
+    border: solid 2px rgba(62, 123, 216, 1);
+    margin-bottom: 17px;   
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: rgba(25, 49, 86, 1);
+    @include text();
+    
+}
+.Volleyball{
+    width: 287px;
+    height: 41px;
+    background-color: white;
+    margin-bottom: 17px;   
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    color: rgba(79, 131, 93, 1);
+    justify-content: center;
+    @include text();
+    border: solid 2px rgba(149, 204, 125, 1);
+}
+.Bars{
+    width: 287px;
+    height: 41px;
+    background-color: white;
+    margin-bottom: 17px;   
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    @include text();
+    border: solid 2px rgba(255, 187, 97, 1);
+    color: rgba(153, 112, 58, 1);
+}
+.Networking{
+    border-radius: 10px;
+    width: 287px;
+    height: 41px;
+    background-color: white;
+    margin-bottom: 17px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include text();
+    border: solid 2px rgba(62, 123, 216, 1);
+    color: rgba(25, 49, 86, 1);
+}
+.View_all{
+    width: 287px;
+    height: 41px;
+    border-radius: 10px;
+    margin-bottom: 17px;   
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    border: solid 2px rgba(255, 255, 255, 1);
+    color: rgba(90, 90, 90, 1);
+     @include text();
+}   
