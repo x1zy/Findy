@@ -1,0 +1,23 @@
+.btn {
+  display: none;
+  width: 24px;
+  height: 24px;
+  opacity: 0.5;
+  color: var(--color-white);
+  transition: opacity var(--duration);
+}
+@media (max-width: 768px) {
+  .btn {
+    opacity: 0.5;
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .btn {
+    width: 22px;
+    height: 22px;
+  }
+}
+.btn:hover {
+  opacity: 1;
+}/*# sourceMappingURL=burger.module.css.map */

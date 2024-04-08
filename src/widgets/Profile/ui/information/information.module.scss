@@ -1,0 +1,47 @@
+.name{
+    width: 232px;
+    height: 57px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.edit{
+    font-size: 10px;
+    color: #5A5A5A;
+    align-items: left;
+}
+
+.username{
+    font-size: 24px;
+    color: black;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about_me{
+    width: 554px;
+    height: 264px;
+    background-color: white;
+}
+
+.about_name{
+    font-size: 24px;
+    color: black;
+}
+
+.about_text{
+    font-size: 20px;
+    color: black;
+}
+
+.information_container{
+    display: flex;
+    flex-direction: column;
+}

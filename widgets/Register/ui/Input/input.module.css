@@ -1,0 +1,29 @@
+.input_page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.input_page input {
+  margin-top: 30px;
+}
+.input_page h2 {
+  padding-top: 50px;
+  font-size: 21px;
+  color: black;
+}
+
+.some_input {
+  display: block;
+  width: 250px;
+  height: 40px;
+  margin: 15px;
+  padding-left: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}/*# sourceMappingURL=input.module.css.map */
